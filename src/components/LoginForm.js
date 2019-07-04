@@ -14,14 +14,14 @@ class LoginForm extends React.Component {
         this.setState({password:event.target.value})
       }
   }
-
+  
   handleSubmit = (event) => {
 
   }
 
   render() {
     return (
-      <form onSubmit={event => this.handleSubmit(event)>
+      <form onSubmit={event => this.handleSubmit(event)}>
         <div>
           <label>
             Username
